@@ -1,0 +1,5 @@
+lista = []
+
+lista.push("Diogo","Ana")
+lista << "Maria"
+push lista

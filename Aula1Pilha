@@ -1,0 +1,21 @@
+publi class aula1Pilha{
+    public static void main(String[]args){
+        Pilha pilha = new pilha();
+
+        Pilha.adicionar("E");
+        Pilha.adicionar("B");
+        Pilha.adicionar("C");
+        Pilha.adicionar("D");
+        Pilha.adicionar("N");
+
+        System.out.println("Topo:"+ pilha.get());
+
+        pilha.remove();
+
+        System.out.println("Novo topo:"+ pilha.get());
+
+        
+
+
+    }
+}
